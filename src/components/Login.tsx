@@ -24,7 +24,7 @@ const Login: React.FC = () => {
         localStorage.setItem('isLoggedIn', 'true');
         navigate('/dashboard');
       } catch (error) {
-        alert(error?.message);
+      
       }
     } else {
       alert('Please enter both username and password');

@@ -24,7 +24,7 @@ const Signup: React.FC = () => {
         alert('User created successfully! You can now log in.');
         navigate('/login'); // Redirect to login after successful signup
       } catch (error) {
-        alert(error.message);
+        
       }
     } else {
       alert('Please enter both username and password');

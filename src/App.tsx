@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Dashboard from './components/Dashboard';
 import Login from './components/Login';
 import './App.css';
-import Signup from './components/SignUp';
+import Signup from './components/Signup';
 
 const App: React.FC = () => {
   return (
